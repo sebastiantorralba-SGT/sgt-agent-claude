@@ -1,0 +1,17 @@
+{
+  "name": "sgt-agent-claude",
+  "owner": {
+    "name": "Seguritech Arquitectura"
+  },
+  "metadata": {
+    "description": "Seguritech agents CLI plugin for Claude Code: MCP wrapper for the neutral capability registry",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "agents",
+      "source": "./",
+      "description": "Install the neutral agents CLI and expose search, add, check, kb, and propose via MCP"
+    }
+  ]
+}

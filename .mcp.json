@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "agents": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "${CLAUDE_PLUGIN_ROOT}/mcp-server",
+        "agents-mcp"
+      ],
+      "env": {
+        "AGENTS_WORKSPACE": "${CLAUDE_PROJECT_DIR}",
+        "AGENTS_GIT_SPEC": "agents @ git+https://git.seguritech.org:92/bigdata-seguritech/code-template.git",
+        "AGENTS_BIN": "${AGENTS_BIN}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "agents",
+  "displayName": "Seguritech Agents",
+  "version": "1.0.0",
+  "description": "Install the neutral agents CLI and expose it via MCP for search, add, check, kb, propose, and the full registry workflow.",
+  "author": {
+    "name": "Seguritech Arquitectura"
+  },
+  "keywords": ["agents", "capabilities", "registry", "mcp", "seguritech"],
+  "commands": "./commands",
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}
